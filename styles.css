@@ -269,3 +269,48 @@ body {
 .main-nav a:hover {
   opacity: 0.65;
 }
+.hero {
+  padding: 110px 20px 120px;
+  text-align: center;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.hero p:first-child {
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #7a6254;
+  margin-bottom: 22px;
+}
+
+.hero h1 {
+  font-size: 56px;
+  line-height: 1.05;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.hero p:nth-of-type(2) {
+  font-size: 18px;
+  line-height: 1.75;
+  color: #5c5048;
+  max-width: 720px;
+  margin: 0 auto 34px;
+}
+
+.hero a {
+  display: inline-block;
+  padding: 15px 30px;
+  border: 1px solid #1f1a17;
+  text-decoration: none;
+  color: #1f1a17;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero a:hover {
+  background: #1f1a17;
+  color: #f7f1e8;
+}
