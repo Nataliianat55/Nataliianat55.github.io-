@@ -201,3 +201,17 @@ a[href*="wa.me"]:last-of-type {
 .site-footer a:hover {
   text-decoration: underline;
 }
+body {
+  line-height: 1.6;
+}
+
+.manifesto h2,
+.about h2,
+.contact-cta h2 {
+  line-height: 1.25;
+}
+
+.service-list p,
+.about > p:last-child {
+  line-height: 1.7;
+}
