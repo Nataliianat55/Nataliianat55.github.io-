@@ -275,8 +275,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   background-image:
-    linear-gradient(rgba(31, 26, 23, 0.38), rgba(31, 26, 23, 0.38)),
-   url("hero.png");
+    background-image:
+  linear-gradient(rgba(31, 26, 23, 0.38), rgba(31, 26, 23, 0.38)),
+  url("hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
